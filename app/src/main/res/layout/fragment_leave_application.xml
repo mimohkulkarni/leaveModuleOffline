@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Leave_Application_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF2F2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TVleave"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/leaveapply"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TVname"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="start"
+                        android:text="@string/fullname"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVpfno"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:text="@string/pfno"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVdesg"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:text="@string/desg"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVstation"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:text="@string/station"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVdept"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:text="@string/dept"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVsec"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:text="@string/sec"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="#000000"/>
+
+                    <TextView
+                        android:id="@+id/TVleavenature"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="start"
+                        android:text="@string/leavenature"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/TVleavefrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="start"
+                        android:text="@string/leavestart"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVleaveto"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="start"
+                        android:text="@string/leaveend"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVnumberdays"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:text="@string/noofdays"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVleavepurpose"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="start"
+                        android:text="@string/leavepurpose"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/TVleaveaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="start"
+                        android:text="@string/leaveaddress"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVleaveheadpermission"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:layout_gravity="start"
+                        android:text="@string/headpermission"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/TVleaveheadpermissionfrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:layout_gravity="start"
+                        android:text="@string/headpermissionfrom"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/TVleaveheadpermissionto"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+                        android:layout_gravity="start"
+                        android:text="@string/headpermissionto"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/TVleaveforword"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="start"
+                        android:text="@string/leaveforward"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <Button
+                        android:id="@+id/btnreset"
+                        android:gravity="center"
+                        android:layout_width="200dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/resetbtn"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TVdisplay_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="end"
+                        android:text="@string/welcome"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVdisplay_pfno"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end"
+                        android:text="@string/welcome"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVdisplay_desg"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end"
+                        android:text="@string/welcome"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVdisplay_station"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end"
+                        android:text="@string/welcome"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVdisplay_dept"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end"
+                        android:text="@string/welcome"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/TVdisplay_sec"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end"
+                        android:text="@string/welcome"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerleavenature"
+                        android:layout_width="match_parent"
+                        android:drawSelectorOnTop="true"
+                        android:layout_height="40dp"
+                        android:textAlignment="center"
+                        android:entries="@array/leavenaturearray"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" >
+
+                        <EditText
+                            android:id="@+id/leavestartcalander"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:textAlignment="center"
+                            android:hint="@string/hintselectdate"
+                            android:inputType="none"/>
+
+                        <ImageButton
+                            android:id="@+id/startreset"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/reset"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="5dp"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" >
+
+                        <EditText
+                            android:id="@+id/leaveendcalander"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:textAlignment="center"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:hint="@string/hintselectdate"
+                            android:inputType="none"/>
+
+                        <ImageButton
+                            android:id="@+id/endreset"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/reset"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="5dp"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/TVdisplay_diffdays"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end"
+                        android:text="@string/TVdisplay_diffdays"
+                        android:textAlignment="center"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/TVdisplay_leavepurpose"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:inputType="textMultiLine" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <EditText
+                        android:id="@+id/TVdisplay_leaveaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:inputType="textMultiLine" />
+
+                    <Spinner
+                        android:id="@+id/spinnerheadpermission"
+                        android:layout_width="match_parent"
+                        android:drawSelectorOnTop="true"
+                        android:layout_height="75dp"
+                        android:textAlignment="center"
+                        android:entries="@array/headpermissionaray"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp" >
+
+                        <EditText
+                            android:id="@+id/headstartcalander"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:textAlignment="center"
+                            android:hint="@string/hintselectdate"
+                            android:inputType="none"/>
+
+                        <ImageButton
+                            android:id="@+id/headstartreset"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/reset"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="5dp"/>
+
+                    </RelativeLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp" >
+
+                        <EditText
+                            android:id="@+id/headendcalander"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:textAlignment="center"
+                            android:hint="@string/hintselectdate"
+                            android:inputType="none"/>
+
+                        <ImageButton
+                            android:id="@+id/headendreset"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/reset"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="5dp"/>
+
+                    </RelativeLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerforwardauth"
+                        android:layout_width="match_parent"
+                        android:drawSelectorOnTop="true"
+                        android:layout_height="35dp"
+                        android:textAlignment="center"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <Button
+                        android:id="@+id/btnsubmit"
+                        android:gravity="center"
+                        android:layout_width="200dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/submit"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

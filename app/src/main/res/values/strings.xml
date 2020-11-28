@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Leave Module</string>
+    <string name="username">PF No. :-</string>
+    <string name="password">Password :-</string>
+    <string name="hintusername">Enter PF No</string>
+    <string name="hintpassword">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="logout">LOGOUT</string>
+    <string name="welcome">Welcome User</string>
+    <string name="homepage_title"><b>Divisional Accounts Office, Solapur</b></string>
+    <string name="homepage_info_title"><b>Welcome to Divisional Accounts Office,Solapur</b></string>
+    <string name="homepage_info"><b> Functions of the Accounts Department :–</b>\nThe Accounts Department of a Railway Administration is mainly responsible for :- \n
+<b>•</b> Keeping the accounts of the railway in accordance with the prescribed rules.\n
+<b>•</b> The check with reference to rules or orders (Known as “Internal Check”) of transactions affecting the receipts and expenditure of railway.\n
+<b>•</b> Prompt settlement of proper claims against the railway.\n
+<b>•</b> Tendering, as part of its important functions, advice to the administration whenever required or necessary in all matters involving railway finance.\n
+<b>•</b> Compilation of budgets in consultation with other departments and monitoring the budgetary control procedures as may be laid down in the relevant orders and Code rules from time to time.\n
+<b>•</b> Generally discharging other management accounting functions such as providing financial data for management reporting, assisting inventory management, participation in purchase/contracting decisions and surveys for major schemes in accordance with the relevant rules and orders.\n
+<b>•</b> Seeing that there are no financial irregularities in the transactions of the railway.</string>
+
+    <string name="fullname">Full Name :</string>
+    <string name="pfno">PF NO. :</string>
+    <string name="mobile">Mobile NO. :</string>
+    <string name="panno">Pan No. :</string>
+    <string name="desg">Designation :</string>
+    <string name="bdate">Birth Date :</string>
+    <string name="station">Station Name :</string>
+    <string name="dept">Department :</string>
+    <string name="level">Level :</string>
+    <string name="apdate">Date Of App :</string>
+    <string name="dsec">Since In Section :</string>
+    <string name="viilvl">7th Pay Level :</string>
+    <string name="viipay">7th Pay :</string>
+    <string name="sec">Section :</string>
+    <string name="catg">Category :-</string>
+    <string name="nxtinc">Next Increment :</string>
+    <string name="office">Office Name :</string>
+    <string name="leavenature">Nature of Leave :</string>
+    <string name="leavestart">Leave From :</string>
+    <string name="leaveend">Leave To :</string>
+    <string name="noofdays">No. of Days :</string>
+    <string name="leavepurpose">Purpose of Leave :</string>
+    <string name="leaveaddress">Adddress While On Leave :</string>
+    <string name="headpermission">Headquarter Leave Permission :</string>
+    <string name="headpermissionfrom">Headquarter Leave Permission From :</string>
+    <string name="headpermissionto">Headquarter Leave Permission To :</string>
+    <string name="leaveforward">Forward to :</string>
+    <string name="hintselectdate">Select Date</string>
+    <string name="leaveapplication">Leave</string>
+    <string name="leavebal"><b>Leave Balance</b></string>
+    <string name="TVdisplay_diffdays">Touch To Calculate</string>
+    <string name="about">created and developed by - <b><u>MIMOH KULKARNI</u></b></string>
+    <string name="remark">Select Remark :</string>
+    <string name="leaveapply"><b>Leave Application</b></string>
+    <string name="personal_info">Personal Info</string>
+    <string name="home">Home</string>
+    <string name="TVleavetype">Leave Nature :</string>
+    <string name="TVforward">Pending With :</string>
+    <string name="TVstatus">Leave Status</string>
+    <string name="remarkreason">State reason for this remark :</string>
+    <string name="leavewaiting">Leaves waiting for confirmation :</string>
+    <string name="sanction_name"><b>Name</b></string>
+    <string name="sanction_pfno"><b>PFNO</b></string>
+    <string name="sanction_date"><b>Date</b></string>
+    <string name="sanction_leave"><b>Sanction Leave</b></string>
+    <string name="ETremarkreason">Enter reason</string>
+    <string name="forwardedby">Forwarded By :</string>
+    <string name="TVnothing">Nothing to show.</string>
+    <string name="status_leave_type"><b>Type</b></string>
+    <string name="status_remark"><b>Remark</b></string>
+    <string name="leave_status">Pending Leaves</string>
+    <string name="clleave">C L Leave :</string>
+    <string name="aplleave">APL Leave :</string>
+    <string name="cclleave">CCL Leave :</string>
+    <string name="haplleave">HAPL Leave :</string>
+    <string name="rhleave">RH Leave :</string>
+    <string name="waitmessage">Waiting for remark</string>
+    <string name="remarkmessage">Remarks about above submitted leave :-</string>
+    <string name="settingsmenu">Settings</string>
+    <string name="settings"><b>Settings</b></string>
+    <string name="getnotifications">Get notifications</string>
+    <string name="oldpass">Enter Old Password :</string>
+    <string name="newpassfirst">Enter New Password :</string>
+    <string name="newpasssecond">Reenter New Password :</string>
+    <string name="hintoldpass">old password</string>
+    <string name="hintnewpass">new password</string>
+    <string name="changepass">Change Password</string>
+    <array name="remarks">
+        <item>Select</item>
+        <item>Sanctioned</item>
+        <item>Not Sanctioned</item>
+        <item>Forward</item>
+    </array>
+    <array name="leavenaturearray">
+        <item>Select</item>
+        <item>C L</item>
+        <item>APL</item>
+        <item>CCl</item>
+        <item>HAPL</item>
+        <item>RH</item>
+        <item>On Duty</item>
+        <item>In-Lieu</item>
+        <item>Spl CL</item>
+    </array>
+    <array name="headpermissionaray">
+        <item>No</item>
+        <item>Yes</item>
+    </array>
+    <string name="title_activity_select__sanction_">Select_Sanction_Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
